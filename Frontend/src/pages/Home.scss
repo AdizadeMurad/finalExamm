@@ -1,0 +1,327 @@
+.fetchproducts {
+    background-color: rgb(246, 246, 246);
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.products-button {
+    display: flex;
+    gap: 10px;
+}
+
+.ourproducts-cards {
+    max-width: 1200px;
+    width: 100%;
+    display: grid;
+    place-content: center;
+    place-items: center;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.ourproducts{
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 991px) {
+    .ourproducts-cards {
+        max-width: 1200px;
+        width: 100%;
+        display: grid;
+        place-content: center;
+        place-items: center;
+        gap: 30px;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr;
+    }
+  }
+
+
+  @media only screen and (max-width: 768px) {
+    .ourproducts-cards {
+        max-width: 1200px;
+        width: 100%;
+        display: grid;
+        place-content: center;
+        place-items: center;
+        gap: 30px;
+        grid-template-columns: 1fr ;
+       
+    }
+  }
+
+.img-products{
+    max-width: 380px;
+    width: 100%;
+}
+.section-top{
+    width: 100%;
+    min-height: 850px;
+    background-image: url('https://preview.colorlib.com/theme/selling/images/hero_2.jpg');
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.general-top{
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 20px;
+}
+.general-text{
+    max-width: 680px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.top-head{
+    color: white;
+    font-weight: bolder;
+    font-size: 90px;
+}
+.top-text{
+    color: white;
+    font-size:22px;
+}
+.top-button{
+    display: flex;
+    gap: 5px;
+}
+.shop-btn{
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    padding: 18px;
+    font-weight: bolder;
+    max-width: 180px;
+    width: 100%;
+    cursor: pointer;
+}
+.club-btn{
+    border: 2px solid white;
+    font-weight: bolder;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 18px;
+    max-width: 200px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.aboutus-general{
+    margin-top: 100px;
+    justify-content: center;
+    display: flex;
+    gap: 70px;
+    
+}
+.aboutus{
+    display: grid;
+    max-width: 1200px;
+    width: 100%;
+place-items: center;
+grid-template-columns: 1fr 1fr ;
+grid-template-rows: 1fr;
+
+}
+
+@media only screen and (max-width: 991px) {
+    .aboutus{
+        padding: 30px;
+    
+    }
+  }
+@media only screen and (max-width: 768px) {
+    .aboutus{
+        padding: 40px;
+        display: grid;
+        max-width: 1200px;
+        width: 100%;
+    place-items: center;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr;
+    
+    }
+  }
+
+
+
+.general-aboutus{
+    max-width: 450px;
+    width: 100%;
+    padding: 65px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.img-aboutus{
+    max-width: 750px;
+    width: 100%;
+}
+.learn{
+    max-width: 120px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    border-style: none;
+}
+.cart{
+    background-color: black;
+    padding: 10px;
+    max-width: 95px;
+    width: 100%;
+    color: white;
+    border-style: none;
+    cursor: pointer;
+}
+.view{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    max-width: 95px;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    border-style: none;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.fa-solid{
+
+    font-size: 30px;
+}
+
+
+.leadercard{
+    text-align: center;
+    max-width: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.leadership{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.leadercards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 80px;
+}
+
+
+@media only screen and (max-width: 991px) {
+    .leadercards{
+        display: grid;
+        grid-template-columns: 1fr  1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 80px;
+    }
+  }
+
+  
+@media only screen and (max-width: 768px) {
+    .leadercards{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 80px;
+    }
+  }
+.general-leadership{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+
+
+.all-cards{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+max-width: 1200px;
+gap: 50px;
+width: 100%;
+}
+
+
+@media only screen and (max-width: 991px) {
+
+    .all-cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        max-width: 1200px;
+        gap: 50px;
+        width: 100%;
+        }
+  }
+
+  @media only screen and (max-width: 768px) {
+
+    .all-cards{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr ;
+        max-width: 1200px;
+        gap: 50px;
+        width: 100%;
+        }.all-card{
+ max-width: 480px;
+ width: 100%;
+ display: flex;
+ gap: 30px;
+    }
+  }
+
+  .all-card{
+    max-width: 350px;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+       }
+    .offerservices{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 100px;
+        margin-top: 100px;
+        background-color: rgb(248,249,250);
+    }
+
+    .offerservices-general{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        
+        align-items: center;
+    }
+    .fetchproducts-products{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+    .ourproducts-head{
+        font-size: 40px;
+        font-weight: bolder;
+    }
